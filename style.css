@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgba(100, 200, 125, 0.5);
+}
+
+.pagetitle {
+    font-size: 3rem;
+    color: rgb(45, 32, 32);
+    margin: 2rem;
+}
+
+.jokecontainer {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(112, 34, 185);
+    color: aliceblue;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 1px 1px 1px 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#loadingIndicator {
+    display: none;
+    font-size: 2rem;
+    margin: 2rem;
+    color: rebeccapurple;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1rem;
+    width: 100px;
+    height: 50px;
+}
